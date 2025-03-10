@@ -61,14 +61,19 @@ A framework for evaluating and comparing creative writing using language models 
 ## Supported Models
 
 - OpenAI
-  - GPT-4 (`gpt-4`)
-  - GPT-3.5 (`gpt-3.5-turbo`)
+  - GPT-4-Mini (`gpt-4o-mini`)
+  - GPT-4 (`4o`)
+  - GPT-3.5 (`o1`)
+  - GPT-3.5-Mini (`o1-mini`)
+  - GPT-3-Mini (`o3-mini`)
   
 - DeepInfra
-  - DeepSeek Reasoner (`r1`)
-  - DeepSeek V3 (`v3`)
-  - Qwen Base (`qwen-base`)
   - Qwen Reasoning (`qwen-reasoning`)
+  - Qwen Base (`qwen-base`)
+  - Llama 3.3 70B (`llama-33-70b`)
+  - Llama 3.1 70B (`llama-31-70b-instruct`)
+  - Llama 3.1 8B (`llama-31-8b-instruct`)
+  - Phi-4 (`phi-4`)
 
 - DeepSeek
   - DeepSeek Reasoner (`r1`)

@@ -24,15 +24,23 @@ class ModelService:
     # Model mappings for each provider
     MODEL_MAPPINGS = {
         ModelProvider.OPENAI: {
-            'gpt-4o-mini': 'gpt-4',  # Using gpt-4 instead of non-existent gpt-4o-mini
-            '4o': 'gpt-4',
-            'o1': 'gpt-3.5-turbo'  # Using actual model name
+            'gpt-4o-mini': 'gpt-4o-mini-2024-07-18',  
+            '4o': 'gpt-4o-2024-08-06',
+            'o1': 'o1-2024-12-17',
+            'o1-mini': 'o1-mini-2024-09-12',
+            'o3-mini': 'o3-mini-2025-01-31'
         },
         ModelProvider.DEEPINFRA: {
-            'qwen-reasoning': 'NovaSky-AI/Sky-T1-32B-Preview',
-            'r1': 'deepseek-ai/DeepSeek-R1',
-            'v3': 'deepseek-ai/DeepSeek-V3',
-            'qwen-base': 'Qwen/Qwen2.5-72B-Instruct'
+            'qwen-reasoning': 'Qwen/QwQ-32B',
+            'qwen-base': 'Qwen/Qwen2.5-72B-Instruct',
+            'llama-33-70b' : 'meta-llama/Llama-3.3-70B-Instruct',
+            'llama-31-70b-instruct': 'meta-llama/Meta-Llama-3.1-70B-Instruct',
+            'llama-31-8b-instruct' : 'meta-llama/Meta-Llama-3.1-8B-Instruct',
+            'phi-4': 'microsoft/Phi-4-multimodal-instruct'
+            # 'qwen-reasoning': 'NovaSky-AI/Sky-T1-32B-Preview',
+            # 'r1': 'deepseek-ai/DeepSeek-R1',
+            # 'v3': 'deepseek-ai/DeepSeek-V3',
+
         },
         ModelProvider.DEEPSEEK: {
             'r1': 'deepseek-reasoner',
@@ -54,7 +62,7 @@ class ModelService:
             'temperature': 0.7
         },
         ModelProvider.DEEPINFRA: {
-            'max_tokens': 100000
+            'max_tokens': 4000
         },
         ModelProvider.DEEPSEEK: {
             'max_tokens': 4000
