@@ -28,8 +28,13 @@ wheels/
 judge-service/logs/
 judge-service/results/
 judge-service/prompts/
-analysis/
+analysis/plots/
+analysis/logs/
+analysis/results/
 old-exp-data/
+
+# Validation files
+validation/
 
 # IDE
 .idea/
