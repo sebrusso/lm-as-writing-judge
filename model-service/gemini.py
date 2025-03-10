@@ -1,8 +1,12 @@
 import google.generativeai as genai
 from typing import List, Dict, Any
 import os
+from dotenv import load_dotenv
 
-def generate_gemini_response(messages: List[Dict[str, str]], api_key: str = "AIzaSyDNMnemD0ona4OIq1eNGsN0U9zm8XRefsA", model: str = 'thinking') -> Dict[str, Any]:
+# Load environment variables from .env file
+load_dotenv()
+
+def generate_gemini_response(messages: List[Dict[str, str]], api_key: str = None, model: str = 'thinking') -> Dict[str, Any]:
     """
     Generate a response using the Gemini API.
     
