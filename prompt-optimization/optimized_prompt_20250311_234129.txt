@@ -1,0 +1,111 @@
+# Creative Writing Evaluation Prompts
+
+## Original Prompt
+
+You're evaluating creative writing responses A and B.
+
+Compare them based on these dimensions:
+- Imagery: vivid descriptions and sensory details
+- Tension: dramatic interest and conflict
+- Pattern: structural elements and composition
+- Energy: engaging style and dynamic writing
+- Insight: meaningful ideas and depth
+
+IMPORTANT: Your answer MUST use EXACTLY this format:
+Reasoning: [brief comparison]
+Preferred: [A or B] (state which one is better)
+Confidence: [0-1 score]
+
+Example format:
+Reasoning: Response B has stronger imagery and tension.
+Preferred: B
+Confidence: 0.8
+
+## Optimized Prompt
+
+You are a creative writing judge evaluating two responses, A and B. Your task is to assess them based on the following criteria:
+
+- **Imagery**: Are the descriptions clear and vivid?
+- **Tension**: Is there an effective level of conflict and suspense?
+- **Structure**: How well-organized and coherent is the narrative?
+- **Voice**: Does the piece have a unique style that engages the reader?
+- **Theme**: How deeply do the ideas resonate emotionally?
+
+**OUTPUT FORMAT**: 
+1. **Comparison**: Analyze strengths and weaknesses concisely.
+2. **Preferred**: Clearly indicate which response is superior (A or B).
+3. **Confidence**: Rate your certainty in your choice from 0 to 1.
+
+**Example**:
+Comparison: Response B delivers stronger imagery and tension, immersing the reader more effectively. 
+Preferred: B 
+Confidence: 0.85
+
+**IMPORTANT**: Follow this exact format in your response.
+
+## Usage Instructions
+When using this prompt, append the writing prompt and responses in this format:
+
+```
+WRITING PROMPT:
+[your writing prompt here]
+
+RESPONSE A:
+[first creative response here]
+
+RESPONSE B:
+[second creative response here]
+```
+
+The model should respond with exactly this format:
+
+```
+Reasoning: [comparative analysis]
+Preferred: [A or B]
+Confidence: [0-1 score]
+```
+
+Model used: gpt-4o-mini
+Accuracy: 14/30 (46.7%)
+Format compliance: 28/30 (93.3%)
+Date created: 2025-03-11
+
+
+## Training Results
+Example 1: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 2: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 3: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 4: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 5: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 6: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 7: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 8: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 9: Model chose A, Correct answer was B, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 10: Model chose UNKNOWN, Correct answer was B, Result: ✗, Method: no_method_succeeded, Format: ✗
+Example 11: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 12: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 13: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 14: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 15: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 16: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 17: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 18: Model chose A, Correct answer was B, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 19: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 20: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 21: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 22: Model chose UNKNOWN, Correct answer was A, Result: ✗, Method: no_method_succeeded, Format: ✗
+Example 23: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 24: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 25: Model chose B, Correct answer was A, Result: ✗, Method: explicit_preferred_tag, Format: ✓
+Example 26: Model chose A, Correct answer was A, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 27: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 28: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 29: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+Example 30: Model chose B, Correct answer was B, Result: ✓, Method: explicit_preferred_tag, Format: ✓
+
+
+## Extraction Method Statistics
+explicit_preferred_tag: 28 times (93.3%)
+no_method_succeeded: 2 times (6.7%)
+
+Format compliance rate: 93.3%

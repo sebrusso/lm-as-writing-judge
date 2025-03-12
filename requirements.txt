@@ -1,0 +1,18 @@
+# ML and Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scipy>=1.7.0
+
+# Hugging Face and Dataset Tools
+datasets
+huggingface-hub
+
+# TextGrad for Prompt Optimization
+textgrad
+
+# Utilities
+python-dotenv
+
+# Add any missing dependencies for your project here 

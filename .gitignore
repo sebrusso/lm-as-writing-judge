@@ -33,6 +33,9 @@ analysis/logs/
 analysis/results/
 old-exp-data/
 
+# Prompt optimization checkpoints
+prompt-optimization/checkpoints/
+
 # Validation files
 validation/
 
